@@ -97,3 +97,30 @@
 8,74S00,10,see 74LS00 but speed/power consumption differ,A
 8,74ALS00,7,see 74LS00 but speed/power consumption differ,A
 8,5222 012,10,Unknown but in box with 74-series. SMD,A
+8,74LS133,10,13-input NAND gate,C
+8,74S134,9,12-INPUT POSITIVE-NAND GATE WITH 3-STATE OUTPUT,C
+8,74LS163,6,4-bit synchronous binary counter with load, reset, and ripple carry output,C
+8,74LS164,225,8-bit serial-in parallel-out shift register with asynchronous reset and two AND gated serial inputs,C
+8,74LS166,16,8-bit parallel-in serial-out shift register with asynchronous reset and two OR gated clock inputs,
+8,74LS168,6,4-bit synchronous decade up/down counter with load and ripple carry output,C
+8,74LS173,10,4-bit 3-state D flip-flop with reset, dual clock enables and dual output enables,C
+8,74LS174,81,6-bit D flip-flop with reset,C
+8,74HC138,25,3-to-8 line decoder/demultiplexer,inverting,C
+8,74S189,25,Dual full adder,C
+8,74LS191,7,4-bit synchronous binary up/down counter with load and both carry out and ripple clock outputs,C
+8,74LS175,4,4-bit D flip-flop with complementary outputs and reset,C
+8,74LS139,8,Dual 1-of-4 inverting decoder/demultiplexer,C
+8,74LS148,8,8-to-3 line inverting priority encoder with cascade inputs,C
+8,74LS151,5,8-to-1 line data selector/multiplexer with complementary outputs,C
+8,74LS273,12,8-bit 3-state D flip-flop with reset,C
+8,74LS279,6,Quad /S-/R latches,C
+8,74LS283,4,4-bit binary full adder with fast carry,C
+8,74LS155,102-of-8 inverting decoder/demultiplexer with separate enables,C
+8,74LS158,3,4-of-8 inverting decoder/demultiplexer,C
+8,74LS257,15,8-to-4 line 3-state noninverting data selector/multiplexer,C
+8,74LS259,7,1-of-8 addressable latch with reset,C
+8,74LS243,6,Quad tri-state bus transciever,C
+8,74LS244,10,Octal tri-state buffer/line driver
+8,74LS245,4,8-bit 3-state noninverting bus transceiver. Enable and direction pins control output enables,C
+8,74LS249,6,SEVEN SEGMENT DECODER/DRIVER, TRUE OUTPUT,C
+8,74LS248,4,BCD to 7-segment decoder/common-cathode LED driver with ripple blank input and output,C
