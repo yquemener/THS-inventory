@@ -1,0 +1,99 @@
+1,74HC238,430,3-to-8 line decoder/demultiplexer
+2,BA532,4,Pair amplifier 13.2V/5.8W
+2,LA4446,8,Stereo audio power amplifier 5.5W
+2,(micro)PC2002,44,9W audio power amplifier
+2,IR3R02,9,Unknown (SHARP)
+2,HA16633P,3,Unknown (Hitachi, may be 2Mx1 memory?)
+2,HM4864P-3,7,65536-word x 1Mbit DRAM
+2,TA7252AP,425,5.9W audio power amplifier
+2,NJM082D,108,Dual JFET input op-amp (marked 082D)
+3,74HC273,17,Positive-edge triggered octal D-type flip-flop with reset
+3,TBP18S42N,20,512x8 RAM of some kind
+3,74HC174,51,Hex D-type flip-flop with reset
+3,74HC137,24,3-to-8 line decoder/demultiplexer with address latches
+3,M5232,8,Unknown (Korg)
+3,74HC242,12,Quad tri-state bus transceiver with inverted outputs
+3,74HC243,11,Quad tri-state bus transciever
+3,74HC244,19,Octal tri-state buffer/line driver
+3,TA7280P,16,5.8W dual audio power amplifier
+3,74HC374,20,Octal tri-state non-inverting D flip-flop
+3,TA8184P,179,Dual channel voltage/tone control IC
+4,LM311,190,Voltage comparator (also marked IR9311)
+4,NJM318D,40,Precision high-speed op-amp
+4,M52472P,348,4-input 3-channel analogue switch
+5,M52327SP,475,Triple video amp 12.5V
+6,LA4280,10,2-channel 10W amplifier for home stereo/TV use
+6,D8251AC,10,Programmable communication interface
+6,LA4282,28,10W typical 2-channel audio power amplifier for stereo systems
+6,TA8200AH,10,Dual audio power amplifier
+6,LA4485,6,Two-channel power amplifier with very few external parts
+6,NM4556AL,5,Dual high-current op-amp
+6,TC40H008P,25,Quad 2-input AND gate
+6,74HC138,25,3-to-8 line decoder/demultiplexer, inverting
+6,74HC241,8,Octal tri-state buffer/line driver
+6,M52042FP,471,NTSC video chroma signal processor
+6,M52390FP,533,NTSC/PAL encoder
+6,41464A,160,DRAM 4k x 4 (100ns)
+7,NJM7805FA,425,5V regulator
+7,M67449,92,Unknown (box is marked VCA so maybe Voltage-Controlled Amplifier)
+7,M67362,64,Unknown (box is marked VCA so maybe Voltage-Controlled Amplifier)
+7,27C512,20,UVc EPROM (512kbit)
+7,27C256,1,UVc EPROM (256kbit)
+7,27C1001,UVc EPROM (1Mbit)
+7,RT1P144S,10000,Silicon PNP transistor with resistor for switching applications Vce max 50V, Vcb max 50V
+7,AWV-100-2,86,Unknown (Columbia, also marked LH538K12),A
+7,AWV-100-1,85,Unknown (Columbia, also marked LH538K11),A
+7,AWV-26-3,13,Unknown (Columbia),A
+7,AWV-100-4,3,Unknown (Columbia, also marked LH538K14),A
+7,AWV-100-3,20,Unknown (Columbia, also marked LH534331),A
+7,AWV-20-4,54,Unknown (Columbia, also marked LH534332. Some are in Intel tube marked D27C040-150V10 which is a 512k x 8 PROM),A
+7,WV-1010,1,Unknown (Columbia, also marked MB834000A-20),A
+7,AWV-20-3,29,Unknown (Columbia, also marked LH534331),A
+7,AWV-26-2,7,Unknown (Columbia),A
+7,WV-1000,40,Unknown (Columbia, also marked MB834000A),A
+7,AWV-26-1,10,Unknown (Columbia),A
+7,74HC74,12,Dual D-type edge-triggered flip-flop,A
+7,BA40,141,400V 8A bridge rectifier
+7,TA7252AP,24,5.9W audio power amplifier,B
+7,NJM13700D,313,Dual operational transconductance amplifier,B
+7,AWV20-2,3,Unknown (Columbia, also marked M534001A),B
+7,AWV20-1,33,Unknown (Columbia, also marked M534001A),B
+7,AWV25-2,1,Unknown (Columbia, also marked M534001A),B
+7,AWV25-3,1,Unknown (Columbia, also marked LH534K26),B
+7,AWV25-4,2,Unknown (Columbia, also marked LH534K26),B
+7,AWV26-4,11,Unknown (Columbia),B
+7,74LVX244F,2,Octal buffers and line driver (SMD),B
+8,74LS04,14,6 off NOT gate,A
+8,74LS00,72,Quad 2-input NAND gate,A
+8,74LS05,114,Hex inverter,A
+8,74LS08,3,Quad 2-input AND gate,A
+8,74LS164,25,Synchronous 8-bit shift register,A
+8,74LS32,39,Quad 2-input OR gate,A
+8,74LS138,350,1-of-8 inverting decoder/demultiplexer,A
+8,74LS76,18,Dual J-K flip-flops with set and reset,A
+8,74LS02,21,Quad 2-input NOR gates,A
+8,74LS38,8,Quad 2-input open-collector NAND gates with buffered output,A
+8,74LS20,11,Dual 4-input NAND gates,A
+8,74LS85,1,4-bit noninverting magnitude comparator with cascade inputs,A
+8,74LS123,4,Dual retriggerable monostable multivibrators with overriding reset,A
+8,74LS14,4,Hex inverters with schmitt-trigger inputs. 0.8V typical input hysteresis at VCC=+5V,A
+8,74LS373,11,8-bit 3-state transparent latch,A
+8,74LS06,7,Hex open-collector high-voltage inverters. Maximum output voltage is 30V,A
+8,74LS07,4,Hex open-collector high-voltage buffers. Maximum output voltage is 30V,A
+8,74LS08,1,Quad 2-input AND gates,A
+8,74LS74,13,Dual D-type edge-triggered flip-flop,A
+8,74LS73,9,Dual positive-edge-triggered J-K flip-flop with reset,A
+8,74LS54,14,4-wide 2/3-input AND-NOR gate,A
+8,74LS124,3,Voltage-Controlled Oscillator (VCO),A
+8,74LS133,4,13-input NAND gate,A
+8,74LS93,8,4-bit asynchronous binary counter with /2 and /8 sections and reset,A
+8,74LS95,9,4-bit universal shift register with separate shift and parallel-load clocks,A
+8,74LS97,8,6-bit synchronous binary rate multiplier. Can perform fixed-rate or variable-rate frequency division. Output frequency is equal to input frequency multiplied by the rate input M and divided by 64. ,A
+8,74LS42,4,1-of-10 inverting decoder/demultiplexer,A
+8,74LS47,7,Open-collector BCD to 7-segment decoder/common-anode LED driver with ripple blank input and output. 15V outputs,A
+8,74LS86,15,Quad 2-input XOR gates,A
+8,74LS90,10,4-bit asynchronous decade counter with /2 and /5 sections, set(9) and reset,A
+8,74LS684,5,8-bit inverting magnitude comparator,A
+8,74S00,10,see 74LS00 but speed/power consumption differ,A
+8,74ALS00,7,see 74LS00 but speed/power consumption differ,A
+8,5222 012,10,Unknown but in box with 74-series. SMD,A
