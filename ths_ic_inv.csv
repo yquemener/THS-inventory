@@ -114,8 +114,8 @@
 8,74LS151,5,8-to-1 line data selector/multiplexer with complementary outputs,C
 8,74LS273,12,8-bit 3-state D flip-flop with reset,C
 8,74LS279,6,Quad /S-/R latches,C
-8,74LS283,4,4-bit binary full adder with fast carry,C
-8,74LS155,102-of-8 inverting decoder/demultiplexer with separate enables,C
+8,74LS283,11,4-bit binary full adder with fast carry,C
+8,74LS155,10,2-of-8 inverting decoder/demultiplexer with separate enables,C
 8,74LS158,3,4-of-8 inverting decoder/demultiplexer,C
 8,74LS257,15,8-to-4 line 3-state noninverting data selector/multiplexer,C
 8,74LS259,7,1-of-8 addressable latch with reset,C
@@ -124,3 +124,47 @@
 8,74LS245,4,8-bit 3-state noninverting bus transceiver. Enable and direction pins control output enables,C
 8,74LS249,6,SEVEN SEGMENT DECODER/DRIVER, TRUE OUTPUT,C
 8,74LS248,4,BCD to 7-segment decoder/common-cathode LED driver with ripple blank input and output,C
+8,74LS373,17,8-bit 3-state transparent latch,C
+8,74LS374,15,8-bit 3-state D flip-flop,C
+8,74LS362,5,Clock generator with four-phase TTL complementary output, AKA TIM9904,C
+8,74LS366,19,6-bit 3-state inverting buffer/line driver,C
+8,74LS298,25,8-to-4 line noninverting data selector/multiplexer with output registers,C
+8,74LS299,10,8-bit 3-state bidirectional universal shift register with asynchronous reset and with separate shift left and shift right serial inputs. Multiplexed parallel I/O,C
+8,74LS322,10,8-bit 3-state shift register with with sign extension and selectable serial inputs. Multiplexed parallel I/O,C
+8,74LS323,10,8-bit 3-state bidirectional universal shift register with reset and multiplexed parallel I/O,C
+8,74LS324,13,Quadruple 2-Input Positive-OR Gates,C
+8,74LS645,10,8-bit 3-state noninverting bus transceiver. Enable and direction pins control output enables,C
+8,74LS670,4x4-bit 3-state dual-port register file,C
+8,74LS684,4,8-bit inverting magnitude comparator,C
+8,74LS290,10,4-bit asynchronous decade counter with /2 and /5 sections, set(9) and reset,C
+8,74LS293,8,4-bit asynchronous binary counter with /2 and /8 sections and reset,C
+8,74LS194,6,4-bit bidirectional universal shift register with asynchronous reset,C
+8,74LS193,11,4-bit synchronous binary up/down counter with asynchronous load and reset, and separate up and down clocks. Carry and borrow outputs,C
+8,74LS192,8,4-bit synchronous decade up/down counter with asynchronous load and reset, and separate up and down clocks, carry and borrow outputs,C
+8,74LS377,3,8-bit D flip-flop with clock enable,C
+8,74LS390,11,Dual 4-bit asynchronous decade counters with separate /2 and /5 sections and reset,C
+8,74LS393,5,Dual 4-bit asynchronous binary counters with reset,C
+8,74LS395,5,4-bit 3-state universal shift register with load and asynchronous reset,C
+8,74LS367,35,2/4-bit 3-state noninverting buffer/line driver,C
+8,74LS368,11,2/4-bit 3-state inverting buffer/line driver,C
+8,MN3009,89,256-STAGE LOW NOISE BBD,B
+8,NE565N,25,Phase-lock Loop,B
+8,NE571N,114,Compander,B
+8,NJMDAC-08,146,8 BIT HIGH SPEED MULTIPLYING D/A CONVERTER labelled DAC 08DE JRC 9305,B
+8,PCM56P,36,Serial Input 16-Bit Monolithic DIGITAL-TO-ANALOG CONVERTER,B
+8,MN3007,139,1024-stage long delay low noise BBD,B
+8,MN3101,149,CLOCK GENERATOR/DRIVER CMOS LSI FOR BBD,B
+8,TC9122P,12,HIGH-SPEED BCD PROGRAMMABLE COUNTER,B
+8,M51133P,23,Delay/Tone/Volume control,B
+8,AWV-20-4,10,Unknown (Columbia, also marked LH534332. Some are in Intel tube marked D27C040-150V10 which is a 512k x 8 PROM),B
+8,MN3102,112,CHORUS FLANGER BBD,B
+8,NE572N,62,Programmable analogue compander,B
+8,MN3207,117,1024-stage long delay low noise BBD,B
+8,uPC1571C,5,Compander,B
+8,NE564N,25,High Frequency Phase Locked Loop,B
+8,TA7629P,25,Unknown (labelled with Dolby logo),B
+8,TC5018P,8,4 BIT BINARY COUNTER WITH CLOCK GENERATOR,B
+8,LR40H368,5,Unknown,B
+8,uPC624C,21,8-Bit High Speed Multiplying D/A Converter - marked on tube "use instead of DAC08" cf. NJMDAC-08,B
+8,62429,10,SERIAL DATA CONTROL DUAL ELECTRONIC VOLUME,B
+8,NE570N,20,Compander,B
