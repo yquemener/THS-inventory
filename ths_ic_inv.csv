@@ -224,28 +224,28 @@
 10,TMS4500ANL,9,Dynamic Memory Controller
 10,LA4270,88,6W Dual-Channel AF Power Amp
 10,LA4282,60,Audio Output for TV application 5W x 2ch
-10,4558D,91,Op-amp
+10,4558D,105,Op-amp
 10,NJM4556AL,194,DUAL HIGH CURRENT OPERATIONAL AMPLIFIER
 10,NJM4556S,106,DUAL HIGH CURRENT OPERATIONAL AMPLIFIER
 10,TC40H161P,5,Binary 4-Bit Up Counter
 10,IR94558,99,Low Noise Dual Operational Amplifier
-10,4558DD,99,Op-amp
+10,4558DD,149,Op-amp
 10,74LS158,25,4-of-8 inverting decoder/demultiplexer
 10,74HC164,75,Synchronous 8-bit shift register
-10,74HC4053,50,Triple 2-channel analog multiplexer/demultiplexer
+10,74HC4053,75,Triple 2-channel analog multiplexer/demultiplexer
 10,74ALS08,8,Quad 2-input AND Gate
 10,74ALS10,7,Triple 3-Input NAND Gate
 10,74S02,10,Quad 2-input NOR Gate
 10,TA8211AH,17,Dual audio power amplifier for consumer applications. Output power of 6 watts per channel. 
-10,5218A,66,DUAL LOW-NOISE OPERATIONAL AMPLIFIERS(DUAL POWER SUPPLY TYPE)
-10,74HC574,19,Octal 3-State Noninverting D-type Flip-Flop, positive-edge triggered
+10,5218A,95,DUAL LOW-NOISE OPERATIONAL AMPLIFIERS(DUAL POWER SUPPLY TYPE)
+10,74HC574,24,Octal 3-State Noninverting D-type Flip-Flop, positive-edge triggered
 10,M5227P,39,Hi-Fi 5-ELEMENT GRAPHIC EQUALIZER
 10,LA4440,20,Two channel audio power amplifier IC for stereo and bridge amplifier applications. Dual mode 6 WPC, bridge mode 19 W. Built in over voltage protection, surge voltage protection and pin-to-pin protection. 
 10,D8253-2,14,Communications controller/programmable interval timer (?)
 10,5K4164ANP-15,44,NMOS 64K DRAM 150NS
 10,40H008,25,Quad 2-Input AND Gate
 10,5238,121,MITSUBISHI - DUAL LOW-NOISE J-FET INPUT OPERATIONAL AMPLIFIERS
-10,4558L,10,Op-amp
+10,4558L,20,Op-amp
 10,74HC05,19,Hex inverter with open-drain outputs
 10,TA7299P,17,Dual Audio Power Amplifier 5.8W (19W BTL)
 10,LA4597,3,2-Channel Power Amp for Radio-Cassette Recorders
@@ -264,5 +264,25 @@
 10,74HC139,5,Dual 1-of-4 inverting decoder/demultiplexer
 10,74ALS1000,10,Quadruple 2-Input Positive-NAND Gates
 10,74ALS874,8,Two 4-bit D-type positive edge-triggered flip-flops with 3-state noninverted output. 
-10,74HC138,11,3-to-8 line decoder/demultiplexer, inverting
-
+10,74HC138,123,3-to-8 line decoder/demultiplexer, inverting
+10,TA8429H,20,Silicon Monolithic Full-bridge Driver (H-Switch) for DC Motor (Driver for Switching between Forward and Reverse)
+10,74HC155,35,2-of-8 inverting decoder/demultiplexer with separate enables
+10,74HC646,15,Octal bus transceiver/register, 3-state
+10,TC40H004P,47,Hex Inverter
+10,74ALS1645,17,Octal 3-State Bus Transceiver
+10,74ALS74,7,Dual positive edge-triggered D-type flip-flop featuring individual data, clock, set, and reset 
+10,74S64,8,4-2-3-2 INPUT AND-OR-INVERT GATES
+10,74S51,10,Dual 2-Wide 2-Input AND-OR-INVERT Gate
+10,M5220L,49,Dual low-noise operational amplifiers (Dual power supply type)
+10,74HC573,20,OCTAL TRANSPARENT D-TYPE LATCHES WITH 3-STATE OUTPUTS
+10,74LS373,1,8-bit 3-state transparent latch
+10,74HC373,7,8-bit 3-state transparent latch
+10,74HC365,10,Hex 3-State Noninverting Buffer with Common Enables
+10,74LS05,17,HEX INVERTER WITH OPEN-COLLECTOR OUTPUTS
+10,74AC04,20,Hex Inverter with Schmitt Trigger Inputs
+10,74ALS1244,10,DUAL 4-BIT DRIVER, TRUE OUTPUT
+10,74ALS1002,8,Hex Inverting Drivers With Open Collector Outputs
+10,74HC86,12,Quad 2-Input Exclusive OR Gate
+10,74S163,10,4 Bit Binary Counter, Clock Frequency: 70MHZ
+10,74S169,6,4-Bit Up/Down Synchronous Counter
+10,74S260,3,Dual 5-Input NOR Gate
