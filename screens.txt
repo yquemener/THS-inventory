@@ -1,0 +1,13 @@
+As of 2013-11-27 we have the following screens: 
+
+- panel 42 cms, VGA connector, touchscreen through DB9 connector
+- panel 39 cms, VGA connector, touchscreen through DB9 connector
+- panel 44 cms, VGA connector, DVI inside, touchscreen through DB9 connector
+- 3x VGA panel 15"  12V
+- monitor on a foot, VGA connector, 220V
+- monitor on a foot, VGA and DVI connector, 12V
+- 7x 18cm small panels with flat ribbon connectors
+- panel 24 cms, VGA connector, touchscreen through 5 pins connector
+- panel 9 cm, flat ribbon connector, no controller
+- panel 9 cm, fnon standard 11 pins connector
+- 2x panels 9 cms, non standard 11 pins connector
