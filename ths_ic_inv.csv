@@ -7,6 +7,8 @@
 2,HM4864P-3,7,65536-word x 1Mbit DRAM
 2,TA7252AP,425,5.9W audio power amplifier
 2,NJM082D,108,Dual JFET input op-amp (marked 082D)
+2,2SK30A-GR,140,N-channel FET (TO-92)
+2,2SK381-11-D,461,FET FOR LOW FREQUENCY AMPLIFIER APPLICATION N CHANNEL JUNCTION
 3,74HC273,17,Positive-edge triggered octal D-type flip-flop with reset
 3,TBP18S42N,20,512x8 RAM of some kind
 3,74HC174,51,Hex D-type flip-flop with reset
@@ -210,61 +212,62 @@
 8,AMI 9124MAH,2,Unknown (also marked SCOEF10-512 9743-081 LSB),D
 8,AMI 9030MAB,8,Unknown (also marked SCOEF10-512 9743-081 LSB),D
 8,MB63H188,96,Gate array (1440 gates),D
-10,NJM2068DD,291,LOW-NOISE DUAL OPERATIONAL AMPLIFIER
+11,NJM2068DD,291,LOW-NOISE DUAL OPERATIONAL AMPLIFIER
 10,M27C1001,20,1Mbit UV EPROM
 10,D4164C,24,NMOS Dynamic RAM Memory 64K x 1 Bit
 10,D8279C-5,9,PROGRAMMABLE KEYBOARD DISPLAY INTERFACE
 10,M27C4001,34,4Mbit UV EPROM
 10,74LS373,25,8-bit 3-state transparent latch
 10,MN51003XDA,24?,Unknown
-10,TA8410AK,36,DUAL POWER OPERATIONAL AMPLIFIER
+11,TA8410AK,36,DUAL POWER OPERATIONAL AMPLIFIER
 10,TA8223K,20,Audio power IC with built-in two channels developed for portable radio cassette tape recorder with power ON/OFF switch
 10,74HC161,20,Presettable synchronous 4-bit binary counter
 10,LA4445,19,10W Audio amplifier
 10,TMS4500ANL,9,Dynamic Memory Controller
 10,LA4270,88,6W Dual-Channel AF Power Amp
 10,LA4282,60,Audio Output for TV application 5W x 2ch
-10,4558D,105,Op-amp
-10,NJM4556AL,194,DUAL HIGH CURRENT OPERATIONAL AMPLIFIER
-10,NJM4556S,106,DUAL HIGH CURRENT OPERATIONAL AMPLIFIER
+11,4558D,105,Op-amp
+11,NJM4556AL,194,DUAL HIGH CURRENT OPERATIONAL AMPLIFIER
+11,NJM4556S,106,DUAL HIGH CURRENT OPERATIONAL AMPLIFIER
 10,TC40H161P,5,Binary 4-Bit Up Counter
-10,IR94558,99,Low Noise Dual Operational Amplifier
-10,4558DD,149,Op-amp
+11,IR94558,99,Low Noise Dual Operational Amplifier
+11,4558DD,149,Op-amp
 10,74LS158,25,4-of-8 inverting decoder/demultiplexer
-10,74HC164,75,Synchronous 8-bit shift register
+10,74HC164,100,Synchronous 8-bit shift register
 10,74HC4053,75,Triple 2-channel analog multiplexer/demultiplexer
 10,74ALS08,8,Quad 2-input AND Gate
 10,74ALS10,7,Triple 3-Input NAND Gate
 10,74S02,10,Quad 2-input NOR Gate
 10,TA8211AH,17,Dual audio power amplifier for consumer applications. Output power of 6 watts per channel. 
-10,5218A,95,DUAL LOW-NOISE OPERATIONAL AMPLIFIERS(DUAL POWER SUPPLY TYPE)
+11,5218,29,DUAL LOW-NOISE OPERATIONAL AMPLIFIERS(DUAL POWER SUPPLY TYPE)
+11,5218A,66,DUAL LOW-NOISE OPERATIONAL AMPLIFIERS(DUAL POWER SUPPLY TYPE)
 10,74HC574,24,Octal 3-State Noninverting D-type Flip-Flop, positive-edge triggered
 10,M5227P,39,Hi-Fi 5-ELEMENT GRAPHIC EQUALIZER
 10,LA4440,20,Two channel audio power amplifier IC for stereo and bridge amplifier applications. Dual mode 6 WPC, bridge mode 19 W. Built in over voltage protection, surge voltage protection and pin-to-pin protection. 
 10,D8253-2,14,Communications controller/programmable interval timer (?)
 10,5K4164ANP-15,44,NMOS 64K DRAM 150NS
 10,40H008,25,Quad 2-Input AND Gate
-10,5238,121,MITSUBISHI - DUAL LOW-NOISE J-FET INPUT OPERATIONAL AMPLIFIERS
-10,4558L,20,Op-amp
+11,5238,121,MITSUBISHI - DUAL LOW-NOISE J-FET INPUT OPERATIONAL AMPLIFIERS
+11,4558L,24,Op-amp
 10,74HC05,19,Hex inverter with open-drain outputs
 10,TA7299P,17,Dual Audio Power Amplifier 5.8W (19W BTL)
 10,LA4597,3,2-Channel Power Amp for Radio-Cassette Recorders
 10,TDA1540D,6,14-Bit DAC (Serial Output)
-10,5216,67,Dual Large-Current Operational Amplifiers (Dual Power Supply Type) DIL package
+11,5216,67,Dual Large-Current Operational Amplifiers (Dual Power Supply Type) DIL package
 10,M5216L,283,Dual Large-Current Operational Amplifiers (Dual Power Supply Type) SIL package
 10,M5241L,118,Dual VCA for Electronic Volume Control
 10,TA8216H,7,Dual audio power amplifier for consumer applications. Output power 13 WPC at Vcc 28V
-10,TA8406P,40,DUAL POWER OPERATIONAL AMPLIFIER
+11,TA8406P,40,DUAL POWER OPERATIONAL AMPLIFIER
 10,M5229P,40,Hi-Fi 7-element graphic equalizer
 10,74HC238,25,3-to-8 line decoder/demultiplexer
 10,74HC158,3,4-of-8 inverting decoder/demultiplexer
 10,74HC373,17,8-bit 3-state transparent latch
-10,74HC4053,6,HIGH-SPEED CMOS LOGIC ANALOG MULTIPLEXERS/DEMULTIPLEXERS
-10,74HC174,25,Hex D-type flip-flop with reset
+10,74HC4053,35,HIGH-SPEED CMOS LOGIC ANALOG MULTIPLEXERS/DEMULTIPLEXERS
+10,74HC174,75,Hex D-type flip-flop with reset
 10,74HC139,5,Dual 1-of-4 inverting decoder/demultiplexer
 10,74ALS1000,10,Quadruple 2-Input Positive-NAND Gates
 10,74ALS874,8,Two 4-bit D-type positive edge-triggered flip-flops with 3-state noninverted output. 
-10,74HC138,123,3-to-8 line decoder/demultiplexer, inverting
+10,74HC138,143,3-to-8 line decoder/demultiplexer, inverting
 10,TA8429H,20,Silicon Monolithic Full-bridge Driver (H-Switch) for DC Motor (Driver for Switching between Forward and Reverse)
 10,74HC155,35,2-of-8 inverting decoder/demultiplexer with separate enables
 10,74HC646,15,Octal bus transceiver/register, 3-state
@@ -273,7 +276,7 @@
 10,74ALS74,7,Dual positive edge-triggered D-type flip-flop featuring individual data, clock, set, and reset 
 10,74S64,8,4-2-3-2 INPUT AND-OR-INVERT GATES
 10,74S51,10,Dual 2-Wide 2-Input AND-OR-INVERT Gate
-10,M5220L,49,Dual low-noise operational amplifiers (Dual power supply type)
+11,M5220L,49,Dual low-noise operational amplifiers (Dual power supply type)
 10,74HC573,20,OCTAL TRANSPARENT D-TYPE LATCHES WITH 3-STATE OUTPUTS
 10,74LS373,1,8-bit 3-state transparent latch
 10,74HC373,7,8-bit 3-state transparent latch
@@ -286,3 +289,26 @@
 10,74S163,10,4 Bit Binary Counter, Clock Frequency: 70MHZ
 10,74S169,6,4-Bit Up/Down Synchronous Counter
 10,74S260,3,Dual 5-Input NOR Gate
+10,74ALS30,10,8-Input NAND Gate
+10,74ALS32,4,Quad 2-Input OR gate
+10,74ALS37,7,Quad 2-input positive-NAND buffers
+10,74HC08,41,Quad 2-input AND gate. Inputs include clamp diodes.
+10,74HC32,25,Quad 2-input OR gate. Inputs include clamp diodes.
+10,74S10,10,Triple 3-Input NAND Gate
+10,74ALS20,8,Dual 4-Input NAND gate
+10,74ALS27,7,Triple 3-Input NOR Gate
+10,74HC85,30,4-bit Magnitude Comparator
+10,74AC573,36,Advanced high-speed CMOS OCTAL D-TYPE LATCH with 3 STATE OUTPUTS. NON INVERTING
+10,74ALS109,8,DUAL JK FLIP FLOP
+10,74ALS112,17,Dual J-K negative edge-triggered flip-flop
+10,74HC4078,8,INPUT NOR/OR GATE
+10,74HC541,36,Octal Buffer and Line Drivers - Three-State
+11,NJM2041DD,23,Low Noise Dual Operational Amplifier (marked JRC 2041DD)
+10,IR3R02,14,Unknown (also marked Columbia 25XD)
+10,M5L8253P,16,Programmable general-purpose timer
+10,IR3R04A,10,Unknown (also marked Columbia 8522)
+10,DAC0832LCN,20,8-Bit P Compatible, Double-Buffered D to A Converter
+10,TA8429H,46,Full-bridge driver IC for brush motor rotation control (switching between forward and reverse rotation)
+9,RT1N144S-T12,9950,Transistor With Resistor For Switching Application (NPN)
+9,RT1N137L-T11,2500,TRANSISTOR WITH RESISTOR FOR SWITCHING APPLICATION SILICON NPN
+9,RT1P137L-T11,7500,TRANSISTOR WITH RESISTOR FOR SWITCHING APPLICATION SILICON PNP
