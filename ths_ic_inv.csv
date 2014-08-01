@@ -332,5 +332,5 @@
 12,74LS10,17,TRIPLE 3-INPUT NAND GATE
 12,BC4G,25,Bridge rectifier (unknown specs)
 12,TLP521-4,25,Optoisolator (4 channels), 2500V isolation
-12,TLP521-1,76,Optoisolator (1 channel), 2500V isolation (marked "P521" only)
+12,TLP521-1,76,Optoisolator (1 channel), 2500V isolation (marked 'P521' only)
 12,TA7227P,5,5.5W dual audio power amplifier
