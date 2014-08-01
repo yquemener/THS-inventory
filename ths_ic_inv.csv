@@ -84,7 +84,7 @@
 8,74LS07,4,Hex open-collector high-voltage buffers. Maximum output voltage is 30V,A
 8,74LS08,1,Quad 2-input AND gates,A
 8,74LS74,13,Dual D-type edge-triggered flip-flop,A
-8,74LS73,9,Dual positive-edge-triggered J-K flip-flop with reset,A
+8,74LS73,28,Dual positive-edge-triggered J-K flip-flop with reset,A
 8,74LS54,14,4-wide 2/3-input AND-NOR gate,A
 8,74LS124,3,Voltage-Controlled Oscillator (VCO),A
 8,74LS133,4,13-input NAND gate,A
@@ -191,7 +191,7 @@
 8,74HC564,19,CMOS OCTAL D-TYPE FLIP FLOP WITH 3-STATE OUTPUTS,D
 8,74HC14,18,Hex Schmitt-Trigger Inverter,D
 8,74HC620,10,OCTAL BUS TRANSCEIVER 3 STATE INVERTING,D
-8,74HC623,9,OCTAL BUS TRANSCEIVER 3 STATE NON-INVERTING,D
+8,74HC623,19,OCTAL BUS TRANSCEIVER 3 STATE NON-INVERTING,D
 8,74HC157,21,Quad 2-Input Data Selector/Multiplexer with 3-State Outputs,D
 8,BA10393,1,Dual Comparator,D
 8,TD62105P,20,7CH NPN DARLINGTON SINK DRIVER,D
@@ -226,14 +226,14 @@
 10,TMS4500ANL,9,Dynamic Memory Controller
 10,LA4270,88,6W Dual-Channel AF Power Amp
 10,LA4282,60,Audio Output for TV application 5W x 2ch
-11,4558D,105,Op-amp
+11,4558D,145,Op-amp
 11,NJM4556AL,194,DUAL HIGH CURRENT OPERATIONAL AMPLIFIER
 11,NJM4556S,106,DUAL HIGH CURRENT OPERATIONAL AMPLIFIER
 10,TC40H161P,5,Binary 4-Bit Up Counter
 11,IR94558,99,Low Noise Dual Operational Amplifier
 11,4558DD,149,Op-amp
-10,74LS158,25,4-of-8 inverting decoder/demultiplexer
-10,74HC164,100,Synchronous 8-bit shift register
+10,74LS158,44,4-of-8 inverting decoder/demultiplexer
+10,74HC164,119,Synchronous 8-bit shift register
 10,74HC4053,75,Triple 2-channel analog multiplexer/demultiplexer
 10,74ALS08,8,Quad 2-input AND Gate
 10,74ALS10,7,Triple 3-Input NAND Gate
@@ -293,7 +293,7 @@
 10,74ALS32,4,Quad 2-Input OR gate
 10,74ALS37,7,Quad 2-input positive-NAND buffers
 10,74HC08,41,Quad 2-input AND gate. Inputs include clamp diodes.
-10,74HC32,25,Quad 2-input OR gate. Inputs include clamp diodes.
+10,74HC32,28,Quad 2-input OR gate. Inputs include clamp diodes.
 10,74S10,10,Triple 3-Input NAND Gate
 10,74ALS20,8,Dual 4-Input NAND gate
 10,74ALS27,7,Triple 3-Input NOR Gate
@@ -312,3 +312,25 @@
 9,RT1N144S-T12,9950,Transistor With Resistor For Switching Application (NPN)
 9,RT1N137L-T11,2500,TRANSISTOR WITH RESISTOR FOR SWITCHING APPLICATION SILICON NPN
 9,RT1P137L-T11,7500,TRANSISTOR WITH RESISTOR FOR SWITCHING APPLICATION SILICON PNP
+12,5220,509,Dual low-noise operational amplifiers (Dual power supply type)
+12,SOCKET-DIP28,12,28-pin DIP IC socket with gold-plated turned pins (nice quality)
+12,74HC283,13,4-bit binary full adder with fast carry
+12,74HC93,19,4-bit binary ripple counter
+12,MC14049UB,19,Hex inverting buffer
+12,74LS160,13,Decade Counter with Asynchronous Clear
+12,CRYSTAL-27.6840,39,27.6840MHz crystal oscillator
+12,TC9208N,10,HIGH TENSION SUSTAINING ANALOG FUNCTION SWITCH
+12,74HC02,15,Quad 2-input NOR gate
+12,MPC741C,22,Op-amp
+12,74147,13,10 LINE TO 4 LINE PRIORITY ENCODER
+12,74LS165,18,8-bit parallel-in/serial out shift register
+12,TD62003,6,7ch Darlington Sink Driver
+12,74HC4520,24,Dual 4-bit asynchronous binary counters with reset and both active high and active low clocks
+12,7407,14,HEX BUFFER with OPEN-COLLECTOR HIGH-VOLTAGE OUTPUTS
+12,M82C51A,3,SYN/ASYN RX/TX (USART) (8251)
+12,74LS162,6,BCD Decade Counter
+12,74LS10,17,TRIPLE 3-INPUT NAND GATE
+12,BC4G,25,Bridge rectifier (unknown specs)
+12,TLP521-4,25,Optoisolator (4 channels), 2500V isolation
+12,TLP521-1,76,Optoisolator (1 channel), 2500V isolation (marked "P521" only)
+12,TA7227P,5,5.5W dual audio power amplifier
