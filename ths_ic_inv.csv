@@ -41,7 +41,7 @@
 7,M67362,64,Unknown (box is marked VCA so maybe Voltage-Controlled Amplifier)
 7,27C512,20,UVc EPROM (512kbit)
 7,27C256,1,UVc EPROM (256kbit)
-7,27C1001,UVc EPROM (1Mbit)
+7,27C1001,FIXME,UVc EPROM (1Mbit)
 7,RT1P144S,10000,Silicon PNP transistor with resistor for switching applications Vce max 50V, Vcb max 50V
 7,AWV-100-2,86,Unknown (Columbia, also marked LH538K12),A
 7,AWV-100-1,85,Unknown (Columbia, also marked LH538K11),A
@@ -212,26 +212,22 @@
 8,AMI 9124MAH,2,Unknown (also marked SCOEF10-512 9743-081 LSB),D
 8,AMI 9030MAB,8,Unknown (also marked SCOEF10-512 9743-081 LSB),D
 8,MB63H188,96,Gate array (1440 gates),D
-11,NJM2068DD,291,LOW-NOISE DUAL OPERATIONAL AMPLIFIER
+9,RT1N144S-T12,9950,Transistor With Resistor For Switching Application (NPN)
+9,RT1N137L-T11,2500,TRANSISTOR WITH RESISTOR FOR SWITCHING APPLICATION SILICON NPN
+9,RT1P137L-T11,7500,TRANSISTOR WITH RESISTOR FOR SWITCHING APPLICATION SILICON PNP
 10,M27C1001,20,1Mbit UV EPROM
 10,D4164C,24,NMOS Dynamic RAM Memory 64K x 1 Bit
 10,D8279C-5,9,PROGRAMMABLE KEYBOARD DISPLAY INTERFACE
 10,M27C4001,34,4Mbit UV EPROM
 10,74LS373,25,8-bit 3-state transparent latch
 10,MN51003XDA,24?,Unknown
-11,TA8410AK,36,DUAL POWER OPERATIONAL AMPLIFIER
 10,TA8223K,20,Audio power IC with built-in two channels developed for portable radio cassette tape recorder with power ON/OFF switch
 10,74HC161,20,Presettable synchronous 4-bit binary counter
 10,LA4445,19,10W Audio amplifier
 10,TMS4500ANL,9,Dynamic Memory Controller
 10,LA4270,88,6W Dual-Channel AF Power Amp
 10,LA4282,60,Audio Output for TV application 5W x 2ch
-11,4558D,145,Op-amp
-11,NJM4556AL,194,DUAL HIGH CURRENT OPERATIONAL AMPLIFIER
-11,NJM4556S,106,DUAL HIGH CURRENT OPERATIONAL AMPLIFIER
 10,TC40H161P,5,Binary 4-Bit Up Counter
-11,IR94558,99,Low Noise Dual Operational Amplifier
-11,4558DD,149,Op-amp
 10,74LS158,44,4-of-8 inverting decoder/demultiplexer
 10,74HC164,119,Synchronous 8-bit shift register
 10,74HC4053,75,Triple 2-channel analog multiplexer/demultiplexer
@@ -239,25 +235,19 @@
 10,74ALS10,7,Triple 3-Input NAND Gate
 10,74S02,10,Quad 2-input NOR Gate
 10,TA8211AH,17,Dual audio power amplifier for consumer applications. Output power of 6 watts per channel. 
-11,5218,29,DUAL LOW-NOISE OPERATIONAL AMPLIFIERS(DUAL POWER SUPPLY TYPE)
-11,5218A,66,DUAL LOW-NOISE OPERATIONAL AMPLIFIERS(DUAL POWER SUPPLY TYPE)
 10,74HC574,24,Octal 3-State Noninverting D-type Flip-Flop, positive-edge triggered
 10,M5227P,39,Hi-Fi 5-ELEMENT GRAPHIC EQUALIZER
 10,LA4440,20,Two channel audio power amplifier IC for stereo and bridge amplifier applications. Dual mode 6 WPC, bridge mode 19 W. Built in over voltage protection, surge voltage protection and pin-to-pin protection. 
 10,D8253-2,14,Communications controller/programmable interval timer (?)
 10,5K4164ANP-15,44,NMOS 64K DRAM 150NS
 10,40H008,25,Quad 2-Input AND Gate
-11,5238,121,MITSUBISHI - DUAL LOW-NOISE J-FET INPUT OPERATIONAL AMPLIFIERS
-11,4558L,24,Op-amp
 10,74HC05,19,Hex inverter with open-drain outputs
 10,TA7299P,17,Dual Audio Power Amplifier 5.8W (19W BTL)
 10,LA4597,3,2-Channel Power Amp for Radio-Cassette Recorders
 10,TDA1540D,6,14-Bit DAC (Serial Output)
-11,5216,67,Dual Large-Current Operational Amplifiers (Dual Power Supply Type) DIL package
 10,M5216L,283,Dual Large-Current Operational Amplifiers (Dual Power Supply Type) SIL package
 10,M5241L,118,Dual VCA for Electronic Volume Control
 10,TA8216H,7,Dual audio power amplifier for consumer applications. Output power 13 WPC at Vcc 28V
-11,TA8406P,40,DUAL POWER OPERATIONAL AMPLIFIER
 10,M5229P,40,Hi-Fi 7-element graphic equalizer
 10,74HC238,25,3-to-8 line decoder/demultiplexer
 10,74HC158,3,4-of-8 inverting decoder/demultiplexer
@@ -276,7 +266,6 @@
 10,74ALS74,7,Dual positive edge-triggered D-type flip-flop featuring individual data, clock, set, and reset 
 10,74S64,8,4-2-3-2 INPUT AND-OR-INVERT GATES
 10,74S51,10,Dual 2-Wide 2-Input AND-OR-INVERT Gate
-11,M5220L,49,Dual low-noise operational amplifiers (Dual power supply type)
 10,74HC573,20,OCTAL TRANSPARENT D-TYPE LATCHES WITH 3-STATE OUTPUTS
 10,74LS373,1,8-bit 3-state transparent latch
 10,74HC373,7,8-bit 3-state transparent latch
@@ -303,15 +292,26 @@
 10,74ALS112,17,Dual J-K negative edge-triggered flip-flop
 10,74HC4078,8,INPUT NOR/OR GATE
 10,74HC541,36,Octal Buffer and Line Drivers - Three-State
-11,NJM2041DD,23,Low Noise Dual Operational Amplifier (marked JRC 2041DD)
 10,IR3R02,14,Unknown (also marked Columbia 25XD)
 10,M5L8253P,16,Programmable general-purpose timer
 10,IR3R04A,10,Unknown (also marked Columbia 8522)
 10,DAC0832LCN,20,8-Bit P Compatible, Double-Buffered D to A Converter
 10,TA8429H,46,Full-bridge driver IC for brush motor rotation control (switching between forward and reverse rotation)
-9,RT1N144S-T12,9950,Transistor With Resistor For Switching Application (NPN)
-9,RT1N137L-T11,2500,TRANSISTOR WITH RESISTOR FOR SWITCHING APPLICATION SILICON NPN
-9,RT1P137L-T11,7500,TRANSISTOR WITH RESISTOR FOR SWITCHING APPLICATION SILICON PNP
+11,NJM2068DD,291,LOW-NOISE DUAL OPERATIONAL AMPLIFIER
+11,TA8410AK,36,DUAL POWER OPERATIONAL AMPLIFIER
+11,4558D,145,Op-amp
+11,NJM4556AL,194,DUAL HIGH CURRENT OPERATIONAL AMPLIFIER
+11,NJM4556S,106,DUAL HIGH CURRENT OPERATIONAL AMPLIFIER
+11,IR94558,99,Low Noise Dual Operational Amplifier
+11,4558DD,149,Op-amp
+11,5218,29,DUAL LOW-NOISE OPERATIONAL AMPLIFIERS(DUAL POWER SUPPLY TYPE)
+11,5218A,66,DUAL LOW-NOISE OPERATIONAL AMPLIFIERS(DUAL POWER SUPPLY TYPE)
+11,5238,121,MITSUBISHI - DUAL LOW-NOISE J-FET INPUT OPERATIONAL AMPLIFIERS
+11,4558L,24,Op-amp
+11,5216,67,Dual Large-Current Operational Amplifiers (Dual Power Supply Type) DIL package
+11,TA8406P,40,DUAL POWER OPERATIONAL AMPLIFIER
+11,M5220L,49,Dual low-noise operational amplifiers (Dual power supply type)
+11,NJM2041DD,23,Low Noise Dual Operational Amplifier (marked JRC 2041DD)
 12,5220,509,Dual low-noise operational amplifiers (Dual power supply type)
 12,SOCKET-DIP28,12,28-pin DIP IC socket with gold-plated turned pins (nice quality)
 12,74HC283,13,4-bit binary full adder with fast carry
@@ -334,3 +334,129 @@
 12,TLP521-4,25,Optoisolator (4 channels), 2500V isolation
 12,TLP521-1,76,Optoisolator (1 channel), 2500V isolation (marked "P521" only)
 12,TA7227P,5,5.5W dual audio power amplifier
+13,PQ05RF2,10,2A Output Low Power-Loss Voltage Regulator (in tube with PQ05RF1)
+13,PQ05RF1,1,1A Output Low Power-Loss Voltage Regulator (in tube with PQ05RF2)
+13,8031,8,8 BIT CONTROL-ORIENTED MICROCOMPUTER
+13,74HC138,50,3-to-8 line decoder/demultiplexer, inverting
+13,PQ05RH11,180,1.5A Output Low Power-Loss Voltage Regulator
+13,D78011BCW,FIXME CHECK
+13,NJM082D,104,Dual JFET input op-amp (marked 082D)
+13,MB63H188,8,Gate array (1440 gates)
+13,D780C,10,Z80 CPU (4MHz)
+13,AMI 9220MAP,82,Unknown (also marked SCOEF11-512 9743-082 MSB)
+13,CK2678,36,Unknown (also marked 8625)
+13,SSM2044,2,Low cost 4pole voltage controlled filter optimized for use as an electronic music lowpass filter
+13,SSMT2044,2,Low cost 4pole voltage controlled filter optimized for use as an electronic music lowpass filter (same as SSM2044?)
+13,PQ05RH1,150,1.5A Output Low Power-Loss Voltage Regulator
+13,TC5023BP,15,16-LINE DATA SELECTOR/MULTIPLEXER
+13,27C1001,28,1 Mbit 128Kb x8 UV EPROM (7 may contain code, labelled PRG T01A, PRG T02A 3.22 (0A50), PRG T02 (3 off), PRGT027_S, 1461)
+13,M4551A,4,Unknown (poss. equiv. SAA7030/TDA1540D)
+13,LH5116-15,59,Static RAM
+13,LH5116-10,1,Static RAM
+13,PIC1654-335,50,8-Bit Microcontroller
+13,8254,16,Programmable Interval Timer
+13,AY-1-1320,4,Piano Keyboard Circuit
+13,AY-5-1317A,4,Chord Generator (DIP40)
+13,74HC4518,25,Dual 4-bit asynchronous decade counters with reset and both active high and active low clocks
+13,LA4125,7,2-CHANNEL AF POWER AMP FOR RADIO / TAPE RECORDER
+13,HD637A01,4,8-bit CMOS single-chip microcomputer unit
+13,M51133P,24,Unknown
+13,HM6116P,7,2048-word X 8bit High Speed CMOS Static RAM
+13,D8243C,8,I/O EXPANDER FOR 8048 FAMILY
+13,uPD78011BCW-110,40,8-BIT SINGLE-CHIP MICROCOMPUTER
+13,NJM4558S,471,dual high-gain operational amplifier internally compensated
+13,74LS162,25,BCD Decade Counter
+13,TBP28L22N,15,2048 bit (256 x 8) low-power PROM with three-state outputs
+13,P8031AH,9,8-BIT CONTROL-ORIENTED MICROCONTROLLER
+13,HM6264P-12,5,8192-word x 8-bit High Speed CMOS Static RAM
+13,6821,3,Peripheral Interface Adapter for 6800-series CPUs
+13,TA7179,20,+/-15V tracking voltage regulator
+13,M5L8251AP,19,PROGRAMMABLE 8-BIT USART
+13,M5L8253P-5,31,PROGRAMMABLE INTERVAL TIMER/THREE 16-BIT COUNTERS/DC-2MHz/FOR 8085A
+13,LMC835N,10,Digital Controlled Graphic Equalizer
+13,D8254-2,1-FIXME-ITS-IN-THE-ORPHANAGE-ATM,Programmable interval timer
+13,TMM2016P,7,2048 x 8 bit static RAM
+13,uPD8253C-2,26,Programmable interval timer (seems to have been used in Sinclair Spectrum?)
+13,74HC164,20,Synchronous 8-bit shift register
+13,74HC138,105,3-to-8 line decoder/demultiplexer, inverting
+13,TBP24S10N,23,One-time 1024 bit PROM (256 x 4) with three-state outputs
+13,TL7705CP,93,Single Supply Voltage Supervisor for 5V Systems with Programmable Time Delay
+13,D8255AC-5,3,Programmable Peripheral Interface
+13,5K4164ANP-15,50,Dram 64K X 1 120NS DIP-16
+13,82S159,18,FIELD PROGRAMMABLE LOGIC SEQUENCER (16x45x12)
+13,SN7534050N,7,RS-422 Interface IC Dual Differential Drivers and Receiver 
+13,M27C4001,7,4MBIT UV EPROM (may contain code, labelled SND T01, SND T02 (IC14), SND T02 (IC13), SND T02-1 (2 off) and SND T02-2 (2 off))
+13,SN751177N,10,RS-422/RS-485 Interface IC Dual Diff Driver
+13,HD14093,18,CMOS NAND TRIGGER (4093 equiv),D
+13,D4164C-2,25,Dram 64K X 1 150NS DIP-16
+13,74HC161,31,Presettable synchronous 4-bit binary counter
+13,TBP18S030N,30,256 BITS (32 WORDS BY 8 BITS) Parallel PROM, 5V Supply, 16 DIP Package
+13,MB8416A-15-SK,4,16K CMOS SRAM (2048 x 8) 24-pin (6116 equiv.)
+13,TLP552,2,TTL to open-collector optocoupler (2500Vrms isolation)
+13,PC910,113,Ultra-high Speed Response OPIC Photocoupler
+13,HD63B09P,3,8-Bit Microprocessor
+13,NJM4556D,7,DUAL HIGH CURRENT OPERATIONAL AMPLIFIER (marked 4556D)
+13,74HC04,6,Hex inverter
+13,74LS00,5,Quad 2-input NAND gate
+13,74LS192,10,4-bit synchronous decade up/down counter with asynchronous load and reset, and separate up and down clocks, carry and borrow outputs
+13,TA7629P,5,VC Audio (=volume control? Marked with Dolby logo)
+13,IR94558,11,Low Noise Dual Operational Amplifier
+13,74HC139,21,Dual 1-of-4 inverting decoder/demultiplexer
+13,MF6CN-50,20,6th Order Switched Capacitor Butterworth Low-pass Filter
+13,TC5517AP-2,4,16K CMOS SRAM (2048 x 8) 24-pin (6116 equiv.)
+13,MCP3022Z,1,Triac (Zero-Crossing)
+13,PC817,2,High-Density Opto-coupler
+13,27128A,3,128kbit UVc EPROM (marked "PGM 12.5V" on case)
+13,2732A,3,32kbit UVc EPROM
+13,27512,1,512kbit UVc EPROM
+13,LM3080N,29,Operational Transconductance Amplifier
+13,HA17555,49,Precision Timer (probably 555 equiv.)
+13,NJM2904D,100,SINGLE-SUPPLY OPERATIONAL AMPLIFIER
+13,TMS4500ANL,7,Dynamic Memory Controller
+13,TA8429H,4,3.0A FULL BRIDGE DRIVER FOR BRUSH MOTOR ROTATION CONTROL
+13,IR3R02,41,Unknown (also marked Columbia 25XD)
+13,MN51003XDA,36,Unknown
+13,M60016,35,2.0um CMOS gate array
+13,LH5216-12,20,CMOS 64K x 18 Static RAM
+13,MB63H188,23,Gate array (1440 gates)
+13,HPH12002M,9,12V 2A switching regulator
+14,M51957B,96,Voltage detecting/system resetting IC
+14,LA4663,14,SANYO - Two-Channel 16-W BTL General-Purpose Audio Power Amplifier
+14,BU2114,10,8-bit CMOS shift register and latch driver (serial in/8-bit parallel out)
+14,BA6246,16,Reversible Motor Driver for 2 motors
+14,BR93L46,5,Microwire Bus 1Kbit (64 x 16bit) EEPROM
+14,TMP87PM41N,6,CMOS single-chip 8-bit 80C51 microcontroller / ROM Size = 32K X 8-bit / RAM Size = 1K
+14,TC4081BP,5,Quad 2-input AND gates
+14,TC4538BP,5,DUAL PRECISION RETRIGGERABLE/RESETTABLE MONOSTABLE MULTIVIBRATOR
+14,TD62003P,3,7CH DARLINGTON SINK DRIVER
+14,TA8216H,10,Dual audio power amplifier for consumer applications. Output power 13 WPC at Vcc 28V
+14,TA8231L,9,42W BTL 2CH Audio Power IC
+14,LA4450,1,Single package two channel power amplifier IC that supports an operating voltage of 26 V
+14,LA4278,2,10 W 2-channel power amplifier intended for televisions
+14,74HC42,10,1-of-10 inverting decoder/demultiplexer
+14,TC4052BP,10,8-to-2 line analog multiplexer/demultiplexer with dual power supply. Vee supply may not be more positive than GND
+14,93LC56A,90,2Kbit low-voltage serial Electrically Erasable PROM (EEPROM)
+14,TA7291P,5,Bridge Driver with output voltage control
+14,HD14049UBP,19,Inverting-Function Buffer Gate (equiv. 4049 Hex inverters with high-to-low level shifter inputs ?)
+14,M61571BFP,4,Audio equalizer
+14,74LS47,21,Open-collector BCD to 7-segment decoder/common-anode LED driver with ripple blank input and output. 15V outputs
+14,74HC152,11,8-to-1 line inverting data selector/multiplexer
+14,74HC153,11,8-to-2 line noninverting data selector/multiplexer with separate enables
+14,HD14584BP,25,Inverting-Function Schmitt Trigger
+14,uPD4511BAC,10,BCD to 7 Segment Latch Decoder/Driver
+14,M51132L,212,2ch Electronic Volume/Balance (VCA)
+14,NJM386BD,30,Audio Amp Speaker 1-CH Mono 1W Class-AB 8-Pin PDIP (JRC version of LM386) - labelled 386BD
+14,LM358N,40,LOW POWER DUAL OPERATIONAL AMPLIFIERS
+14,BA10358,1,Dual ground sense operational amplifier
+14,74HC4052AP,2,8-to-2 line analog multiplexer/demultiplexer with dual power supply. Vee supply may not be more positive than GND
+14,TA8246AHQ,5,DUAL AUDIO POWER AMPLIFIER 6W x 2CH
+14,BR93L46,13,Microwire BUS 1Kbit(64 x 16bit) EEPROM
+14,M27C4001,5,4MBIT UV EPROM
+14,BU4028B,10,1-of-10 noninverting decoder/demultiplexer
+14,BU4051BC,5,8-to-1 line analog multiplexer/demultiplexer with dual power supply. Vee supply may not be more positive than GND
+14,TLP626,5,Optocoupler (phototransistor output)
+14,BA10339,17,QUAD ANALOGUE COMPARATOR
+14,TD62103P,5,7CH DARLINGTON SINK DRIVER
+14,TLP621-2,17,Optocoupler (phototransistor output)
+14,MAX4019,6,High-Speed Single-Supply Gain of +2 Buffers with Rail-to-Rail Outputs
+14,NJM431,4,3 terminal adjustable shunt regulator. The output voltage may be set to any value between VREF (about 2.5V) and 36V by two resistors
