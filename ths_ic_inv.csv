@@ -167,7 +167,7 @@
 8,TA7629P,25,Unknown (labelled with Dolby logo),B
 8,TC5018P,8,4 BIT BINARY COUNTER WITH CLOCK GENERATOR,B
 8,LR40H368,5,Unknown,B
-8,uPC624C,21,8-Bit High Speed Multiplying D/A Converter - marked on tube "use instead of DAC08" cf. NJMDAC-08,B
+8,uPC624C,21,8-Bit High Speed Multiplying D/A Converter - marked on tube 'use instead of DAC08' cf. NJMDAC-08,B
 8,62429,10,SERIAL DATA CONTROL DUAL ELECTRONIC VOLUME,B
 8,NE570N,20,Compander,B
 8,TC4584BP,7,Hex Schmitt trigger inverter,D
@@ -332,7 +332,7 @@
 12,74LS10,17,TRIPLE 3-INPUT NAND GATE
 12,BC4G,25,Bridge rectifier (unknown specs)
 12,TLP521-4,25,Optoisolator (4 channels), 2500V isolation
-12,TLP521-1,76,Optoisolator (1 channel), 2500V isolation (marked "P521" only)
+12,TLP521-1,76,Optoisolator (1 channel), 2500V isolation (marked 'P521' only)
 12,TA7227P,5,5.5W dual audio power amplifier
 13,PQ05RF2,10,2A Output Low Power-Loss Voltage Regulator (in tube with PQ05RF1)
 13,PQ05RF1,1,1A Output Low Power-Loss Voltage Regulator (in tube with PQ05RF2)
