@@ -167,7 +167,7 @@
 8,TA7629P,25,Unknown (labelled with Dolby logo),B
 8,TC5018P,8,4 BIT BINARY COUNTER WITH CLOCK GENERATOR,B
 8,LR40H368,5,Unknown,B
-8,uPC624C,21,8-Bit High Speed Multiplying D/A Converter - marked on tube 'use instead of DAC08' cf. NJMDAC-08,B
+8,uPC624C,21,8-Bit High Speed Multiplying D/A Converter - marked on tube "use instead of DAC08" cf. NJMDAC-08,B
 8,62429,10,SERIAL DATA CONTROL DUAL ELECTRONIC VOLUME,B
 8,NE570N,20,Compander,B
 8,TC4584BP,7,Hex Schmitt trigger inverter,D
@@ -332,7 +332,7 @@
 12,74LS10,17,TRIPLE 3-INPUT NAND GATE
 12,BC4G,25,Bridge rectifier (unknown specs)
 12,TLP521-4,25,Optoisolator (4 channels), 2500V isolation
-12,TLP521-1,76,Optoisolator (1 channel), 2500V isolation (marked 'P521' only)
+12,TLP521-1,76,Optoisolator (1 channel), 2500V isolation (marked "P521" only)
 12,TA7227P,5,5.5W dual audio power amplifier
 13,PQ05RF2,10,2A Output Low Power-Loss Voltage Regulator (in tube with PQ05RF1)
 13,PQ05RF1,1,1A Output Low Power-Loss Voltage Regulator (in tube with PQ05RF2)
@@ -460,3 +460,35 @@
 14,TLP621-2,17,Optocoupler (phototransistor output)
 14,MAX4019,6,High-Speed Single-Supply Gain of +2 Buffers with Rail-to-Rail Outputs
 14,NJM431,4,3 terminal adjustable shunt regulator. The output voltage may be set to any value between VREF (about 2.5V) and 36V by two resistors
+15,2SC1815Y,lots,General Purpose AF Amplifier NPN transistor (Vceo 50V / Ic 150mA) compl. to 2SA1015
+15,2SB596O,lots,PNP EPITAXIAL SILICON TRANSISTOR. LOW FREQUENCY POWER AMPLIFIER. TO-220. # Complement to 2SD526. (4.0A/80V/30W)
+15,2SD880Y,lots,NPN EPITAXIAL SILICON TRANSISTOR. LOW FREQUENCY POWER AMPLIFIER. TO-220. # Complement to 2SB834. (3A/60V/30W)
+15,2SC2655Y,lots,NPN TRANSISTOR (POWER AMPLIFIER/SWITCHING APPLICATIONS) (2A/50V)
+15,2SC945A,lots,NPN Silicon Transistor (AF amplifier and low speed switching) (50V/100mA/250mW) TO-92
+15,2SC2878A,lots,NPN TRANSISTOR (FOR MUTING AND SWITCHING APPLICATIONS) LOW 'ON' RESISTANCE (1ohm) (50V/300mA/400mW) TO-92
+15,2SC1815BL,lots,see 2SC1815Y
+15,2SC3068,lots,NPN Transistor for High-hFE Low-Frequency General-Purpose Amp Applications (30V/300mA/600mW)
+15,2SC1923O,lots,NPN TRANSISTOR (HIGH FREQUENCY/FM/RF/MIX/IF/AMPLIFIER APPLICATIONS) (40V,20mA,100mW) Small Reverse Transfer Capacitance (Cre=0.7pF typ)
+15,2SC3330S,lots,NPN Transistor for AF amp applications (50V/200mA/300mW) compl. to 2SA1317
+15,2SC1815LGR,33,see 2SC1815Y
+15,2SC2320,16,NPN Transistor for Audio Frequency Voltage Amplifier/Low Noise Amplifier Applications (50V/200mA/300mW)
+15,DTA114ES,lots,PNP 100mA 50V Digital Transistor (Bias Resistor Built-in)
+15,DTC144WS,lots,NPN 100mA 50V Digital Transistor (Bias Resistor Built-in)
+15,2SC2603F,lots,NPN silicon transistor for low-power general-purpose amplifiers (50V/200mA/300mW)
+15,2SD612KE,20,NPN silicon transistor 25V/35V/2A for Low-Frequency Power Amp Applications
+15,D587,8,Unknown NEC (power transistor?) (suspect part number is an abbreviation)
+15,2SC1516,20,Silicon NPN power transistor (35V/1.5A/10W)
+15,D588,7,Unknown NEC (power transistor?) (suspect part number is an abbreviation)
+15,B617,5,Unknown NEC (power transistor?) (suspect part number is an abbreviation)
+15,B618,2,Unknown NEC (power transistor?) (suspect part number is an abbreviation)
+15,2SC853,6,(marked C853) Silicon NPN transistor for AF applications (60V/200mA/400mW) compl. to 2SA545
+15,C55A,13,Unknown NEC (op-amp?) (suspect part number is an abbreviation)
+15,2SC1162,16,Silicon NPN transistor - Low frequency power amplifier (complementary pair with 2SA715) (TO-126) (35V/2.5A/10W) (marked C1162)
+15,D289,6,Unknown NEC (power transistor?) (suspect part number is an abbreviation)
+15,CA3080,2,2MHz Operational Transconductance Amplifier (OTA)
+15,2SD358,2,NPN power transistor (120V/800mA/1-10W) compl. to 2SB528 (marked D358)
+15,2SC1061,1,NPN low-frequency power transistor TO-220 (3.0A/50V/25W) (marked C1061)
+15,2SD313,1,NPN power transistor for AF applications (compl. to 2SB507) (60V/3A/30W) (marked D313)
+15,2SD381,1,NPN power transistor for AF or low-speed power switching applications (TO-220) (120V/1.5A/20W) compl. to 2SB536 (marked D381)
+15,2SD613,1,NPN silicon AF POWER TRANSISTOR (6A,85V,40W) TO-220 compl. to 2SB633 (marked D613)
+15,2SB633,1,PNP silicon AF POWER TRANSISTOR (6A,85V,40W) TO-220 compl. to 2SD613 (marked B633)
