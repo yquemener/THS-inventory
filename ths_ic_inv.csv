@@ -189,7 +189,7 @@
 8,74HC390,6,Dual Decade Ripple Counter,D
 8,74HC393,15,dual 4-stage binary ripple counter,D
 8,74HC564,19,CMOS OCTAL D-TYPE FLIP FLOP WITH 3-STATE OUTPUTS,D
-8,74HC14,18,Hex Schmitt-Trigger Inverter,D
+8,74HC14,14,Hex Schmitt-Trigger Inverter,D
 8,74HC620,10,OCTAL BUS TRANSCEIVER 3 STATE INVERTING,D
 8,74HC623,19,OCTAL BUS TRANSCEIVER 3 STATE NON-INVERTING,D
 8,74HC157,21,Quad 2-Input Data Selector/Multiplexer with 3-State Outputs,D
@@ -460,35 +460,55 @@
 14,TLP621-2,17,Optocoupler (phototransistor output)
 14,MAX4019,6,High-Speed Single-Supply Gain of +2 Buffers with Rail-to-Rail Outputs
 14,NJM431,4,3 terminal adjustable shunt regulator. The output voltage may be set to any value between VREF (about 2.5V) and 36V by two resistors
-15,2SC1815Y,lots,General Purpose AF Amplifier NPN transistor (Vceo 50V / Ic 150mA) compl. to 2SA1015
-15,2SB596O,lots,PNP EPITAXIAL SILICON TRANSISTOR. LOW FREQUENCY POWER AMPLIFIER. TO-220. # Complement to 2SD526. (4.0A/80V/30W)
-15,2SD880Y,lots,NPN EPITAXIAL SILICON TRANSISTOR. LOW FREQUENCY POWER AMPLIFIER. TO-220. # Complement to 2SB834. (3A/60V/30W)
-15,2SC2655Y,lots,NPN TRANSISTOR (POWER AMPLIFIER/SWITCHING APPLICATIONS) (2A/50V)
-15,2SC945A,lots,NPN Silicon Transistor (AF amplifier and low speed switching) (50V/100mA/250mW) TO-92
-15,2SC2878A,lots,NPN TRANSISTOR (FOR MUTING AND SWITCHING APPLICATIONS) LOW 'ON' RESISTANCE (1ohm) (50V/300mA/400mW) TO-92
-15,2SC1815BL,lots,see 2SC1815Y
-15,2SC3068,lots,NPN Transistor for High-hFE Low-Frequency General-Purpose Amp Applications (30V/300mA/600mW)
-15,2SC1923O,lots,NPN TRANSISTOR (HIGH FREQUENCY/FM/RF/MIX/IF/AMPLIFIER APPLICATIONS) (40V,20mA,100mW) Small Reverse Transfer Capacitance (Cre=0.7pF typ)
-15,2SC3330S,lots,NPN Transistor for AF amp applications (50V/200mA/300mW) compl. to 2SA1317
-15,2SC1815LGR,33,see 2SC1815Y
-15,2SC2320,16,NPN Transistor for Audio Frequency Voltage Amplifier/Low Noise Amplifier Applications (50V/200mA/300mW)
-15,DTA114ES,lots,PNP 100mA 50V Digital Transistor (Bias Resistor Built-in)
-15,DTC144WS,lots,NPN 100mA 50V Digital Transistor (Bias Resistor Built-in)
-15,2SC2603F,lots,NPN silicon transistor for low-power general-purpose amplifiers (50V/200mA/300mW)
-15,2SD612KE,20,NPN silicon transistor 25V/35V/2A for Low-Frequency Power Amp Applications
-15,D587,8,Unknown NEC (power transistor?) (suspect part number is an abbreviation)
-15,2SC1516,20,Silicon NPN power transistor (35V/1.5A/10W)
-15,D588,7,Unknown NEC (power transistor?) (suspect part number is an abbreviation)
-15,B617,5,Unknown NEC (power transistor?) (suspect part number is an abbreviation)
-15,B618,2,Unknown NEC (power transistor?) (suspect part number is an abbreviation)
-15,2SC853,6,(marked C853) Silicon NPN transistor for AF applications (60V/200mA/400mW) compl. to 2SA545
-15,C55A,13,Unknown NEC (op-amp?) (suspect part number is an abbreviation)
-15,2SC1162,16,Silicon NPN transistor - Low frequency power amplifier (complementary pair with 2SA715) (TO-126) (35V/2.5A/10W) (marked C1162)
-15,D289,6,Unknown NEC (power transistor?) (suspect part number is an abbreviation)
-15,CA3080,2,2MHz Operational Transconductance Amplifier (OTA)
-15,2SD358,2,NPN power transistor (120V/800mA/1-10W) compl. to 2SB528 (marked D358)
-15,2SC1061,1,NPN low-frequency power transistor TO-220 (3.0A/50V/25W) (marked C1061)
-15,2SD313,1,NPN power transistor for AF applications (compl. to 2SB507) (60V/3A/30W) (marked D313)
-15,2SD381,1,NPN power transistor for AF or low-speed power switching applications (TO-220) (120V/1.5A/20W) compl. to 2SB536 (marked D381)
-15,2SD613,1,NPN silicon AF POWER TRANSISTOR (6A,85V,40W) TO-220 compl. to 2SB633 (marked D613)
-15,2SB633,1,PNP silicon AF POWER TRANSISTOR (6A,85V,40W) TO-220 compl. to 2SD613 (marked B633)
+15,2SC1815Y,lots,General Purpose AF Amplifier NPN transistor (Vceo 50V / Ic 150mA) compl. to 2SA1015,A
+15,2SB596O,lots,PNP EPITAXIAL SILICON TRANSISTOR. LOW FREQUENCY POWER AMPLIFIER. TO-220. # Complement to 2SD526. (4.0A/80V/30W),A
+15,2SD880Y,lots,NPN EPITAXIAL SILICON TRANSISTOR. LOW FREQUENCY POWER AMPLIFIER. TO-220. # Complement to 2SB834. (3A/60V/30W),A
+15,2SC2655Y,lots,NPN TRANSISTOR (POWER AMPLIFIER/SWITCHING APPLICATIONS) (2A/50V),A
+15,2SC945A,lots,NPN Silicon Transistor (AF amplifier and low speed switching) (50V/100mA/250mW) TO-92,A
+15,2SC2878A,lots,NPN TRANSISTOR (FOR MUTING AND SWITCHING APPLICATIONS) LOW 'ON' RESISTANCE (1ohm) (50V/300mA/400mW) TO-92,A
+15,2SC1815BL,lots,see 2SC1815Y,A
+15,2SC3068,lots,NPN Transistor for High-hFE Low-Frequency General-Purpose Amp Applications (30V/300mA/600mW),A
+15,2SC1923O,lots,NPN TRANSISTOR (HIGH FREQUENCY/FM/RF/MIX/IF/AMPLIFIER APPLICATIONS) (40V,20mA,100mW) Small Reverse Transfer Capacitance (Cre=0.7pF typ),A
+15,2SC3330S,lots,NPN Transistor for AF amp applications (50V/200mA/300mW) compl. to 2SA1317,A
+15,2SC1815LGR,33,see 2SC1815Y,A
+15,2SC2320,16,NPN Transistor for Audio Frequency Voltage Amplifier/Low Noise Amplifier Applications (50V/200mA/300mW),A
+15,DTA114ES,lots,PNP 100mA 50V Digital Transistor (Bias Resistor Built-in),A
+15,DTC144WS,lots,NPN 100mA 50V Digital Transistor (Bias Resistor Built-in),A
+15,2SC2603F,lots,NPN silicon transistor for low-power general-purpose amplifiers (50V/200mA/300mW),A
+15,2SD612KE,20,NPN silicon transistor 25V/35V/2A for Low-Frequency Power Amp Applications,A
+15,D587,8,Unknown NEC (power transistor?) (suspect part number is an abbreviation),A
+15,2SC1516,20,Silicon NPN power transistor (35V/1.5A/10W),A
+15,D588,7,Unknown NEC (power transistor?) (suspect part number is an abbreviation),A
+15,B617,5,Unknown NEC (power transistor?) (suspect part number is an abbreviation),A
+15,B618,2,Unknown NEC (power transistor?) (suspect part number is an abbreviation),A
+15,2SC853,6,(marked C853) Silicon NPN transistor for AF applications (60V/200mA/400mW) compl. to 2SA545,A
+15,C55A,13,Unknown NEC (op-amp?) (suspect part number is an abbreviation),A
+15,2SC1162,16,Silicon NPN transistor - Low frequency power amplifier (complementary pair with 2SA715) (TO-126) (35V/2.5A/10W) (marked C1162),A
+15,D289,6,Unknown NEC (power transistor?) (suspect part number is an abbreviation),A
+15,CA3080,2,2MHz Operational Transconductance Amplifier (OTA),A
+15,2SD358,2,NPN power transistor (120V/800mA/1-10W) compl. to 2SB528 (marked D358),A
+15,2SC1061,1,NPN low-frequency power transistor TO-220 (3.0A/50V/25W) (marked C1061),A
+15,2SD313,1,NPN power transistor for AF applications (compl. to 2SB507) (60V/3A/30W) (marked D313),A
+15,2SD381,1,NPN power transistor for AF or low-speed power switching applications (TO-220) (120V/1.5A/20W) compl. to 2SB536 (marked D381),A
+15,2SD613,1,NPN silicon AF POWER TRANSISTOR (6A/85V/40W) TO-220 compl. to 2SB633 (marked D613),A
+15,2SB633,1,PNP silicon AF POWER TRANSISTOR (6A/85V/40W) TO-220 compl. to 2SD613 (marked B633),A
+15,2SA999,lots,PNP silicon AF transistor (50V/200mA/300mW),B
+15,2SA1115,lots,PNP silicon RF transistor (fT 200MHz) (50V/200mA/300mW) (marked "115" only),B
+15,2SA950,lots,PNP Audio Power Amplifier Transistor. High hFE: hFE = 100-320. 1 W output applications.  Complementary to 2SC2120,B
+15,2SA966,lots,30V/1.5A/900mW complementary to 2SC2236 - 3W output applications,B
+15,2SA733,lots,PNP general purpose transistor - high hFE and excellent linearity. 60V/100mA/250mW. AF driver applications,B
+15,2SA1015,lots,PNP silicon transistor for AF amplifier/low noise amplifier applications. 50V/150mA/400mW complementary to 2SC1815,B
+15,2SA1020,lots,PNP silicon transistor for power amplifier/power switching industrial applications. High speed switching. Complementary to 2SC2655. 50V/2A/900mW,B
+15,2SA965,50,PNP silicon transistor 120V/800mA/900mW. Complementary to 2SC2235. fT 120MHz. Power amplifier/driver stage amplifier applications,B
+15,2SD1889,lots,NPN silicon power Darlington transistor 120V/6A (10A pulse)/30W. Built-in base-emitter resistor/built-in damper diode,C
+15,TA7824,49,24V switching voltage regulator (max input 40V/max output current 1.5A-ish),C
+15,1Z27,10,1W 27V zener diode,D
+15,SM12GZ47,17,Triac 400V 12A (1500V isolation),D
+15,2SA1887,10,Silicon PNP transistor for high current switching applications - low saturation voltage (50V/10A/25W),D
+15,2SA1931,8,Silicon PNP transistor for high current switching applications - low saturation voltage/high speed switching (1.0us) (50V/5A/20W) Complementary to 2SC4881,D
+15,2SA1869,5,Silicon PNP power transistor for power amp applications - complementary to 2SC4935 - 50V/3A/10W,D
+15,5Z27,16,5W zener diode 27V - designed as reverse power transient surge suppressor to protect automotive equipment,D
+15,RN1226,10,Silicon NPN transistor for switching - inverter - interface - driver applications. Built-in bias resistors. Complementary to RN2226. 50V/800mA/300mW,D
+15,2Z36,20,1.5W 36V zener diode - constant voltage regulation and transient suppression,D
+15,SM8GZ47,20,Triac 400V 8A (1500V isolation),D
+15,2SD2396,49,NPN power transistor for LF power amp applications - high gain (typ. hfe 1000) - 60V/3A/30W,D
